@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <i>Threads @</i>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="leftimage">
+        <img src="imgs/Threads-app-Featured.jpg" alt="side image" />
+      </div>
+
+      <div class="form">
+        <form>
+          <h1>Sign Up</h1>
+          <hr />
+          <br />
+          <br />
+          <label for="username">Enter Username:</label><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="username"
+          /><br /><br /><br />
+          <label for="password">Enter Password:</label><br />
+          <input
+            type="text"
+            id="password"
+            name="password"
+            placeholder="********"
+          /><br /><br />
+          <button class="Signupbutton" onclick="validateForm()">Sign Up</button
+          ><br />
+          <hr />
+          <br />
+          <p>Already have an account ?</p>
+          <br />
+
+          <button class="button2">Log In</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

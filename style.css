@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    /* justify-content: center; */
+    align-items:center ;
+   
+}
+
+div .form{
+    margin-right: 1%;
+
+    
+}
+
+
+.form{
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 20px;
+    /* margin-left: 18%; */
+    /* margin-right: 18%; */
+    padding-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.form h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.form p{
+    text-align: center;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Signupbutton {
+    background-color: #008CBA; /* Green */
+    border: solid;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+
+  .leftimage img{
+    height: 594px;
+    width: 1000px;
+}
+
+.button2 {
+
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  input{
+    width: 100%;
+    height: 30px;
+  }
+
+  label{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+
+  @media only screen and (max-width:1300px){
+    body{
+      width: 100%;
+    }
+
+   .leftimage{
+    display: none;
+   }
+
+  .form{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+
+
+  }
+
+  @media only screen and (max-width:450px){
+    body{
+      width: 100%;
+    }
+
+   .leftimage{
+    display: none;
+   }
+
+  .form{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 15%;
+  }
+
+
+
+  }
+  
+
+
+
